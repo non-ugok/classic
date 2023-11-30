@@ -1,0 +1,143 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  /* background-color: #a8c6ed; */
+  background-image: url(img/tatami.jpg);
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  /* opacity: 0.7; */
+  /*background-color: #ade0d6;*/
+}
+
+nav {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+nav ul li {
+  padding: 20px 40px;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #24211c;
+}
+a:visited {
+  color: #24211c;
+}
+
+main {
+  padding-top: 130px;
+}
+
+.ABOUT {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+mark {
+  background: linear-gradient(transparent 50%, #fff3b5 0%);
+}
+.mark2 {
+  background: linear-gradient(transparent 50%, #edd5a8 0%);
+  font-size: 24px;
+}
+
+.introduction_1 {
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  padding: 140px 100px;
+  background-image: url(img/title_text.png), url(img/game_1.png);
+  background-size: 55%, 20%;
+  background-position: 100px 120px, 700px 35px;
+  background-repeat: no-repeat;
+  margin-bottom: 60px;
+}
+
+.introduction_2 {
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  background-image: url(img/karuta_1.png);
+  background-size: 13%;
+  background-position: 810px 295px;
+  background-repeat: no-repeat;
+  margin-bottom: 60px;
+  line-height: 30px;
+}
+
+.introduction_2 p:first-child {
+  padding: 40px 0px;
+  font-size: 36px;
+  margin: 0;
+}
+
+.introduction_2 p:last-child {
+  font-size: 20px;
+  padding: 40px 0px;
+}
+
+.introduction_3 {
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  background-image: url(img/juunihitoe.png);
+  background-size: 15%;
+  background-position: 815px 350px;
+  background-repeat: no-repeat;
+  line-height: 35px;
+  margin-bottom: 60px;
+}
+
+.introduction_3 p:first-child {
+  padding: 40px 0px;
+  font-size: 36px;
+  margin: 0;
+}
+
+.introduction_3 p:last-child {
+  font-size: 20px;
+  color: #e66157;
+  padding-bottom: 25px;
+}
+
+.HOW {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  line-height: 35px;
+  margin-bottom: 60px;
+}
+
+.HOW p:first-child {
+  padding: 40px 0px;
+  font-size: 36px;
+  margin: 0;
+}
+
+.HOW img {
+  width: 18%;
+}
+
+.bottom_space {
+  padding-bottom: 40px;
+}
+
+.space {
+  margin-top: 80px;
+}
